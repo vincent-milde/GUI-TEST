@@ -4,7 +4,7 @@ import ttkbootstrap as ttk
 
 def convert():
     mileIn = entryInt.get()
-    kmOut = (mileIn * 1.61 ) 
+    kmOut = (round(mileIn * 1.61, 4) ) 
     outputStr.set(kmOut)
 
 
